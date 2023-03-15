@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="eng">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"> 
+    <title>
+        Free to play games
+    </title>
+<head>
+    <link rel="stylesheet" href="style.css" media="screen">    
+    
+    <section class="navBar">
+        <a href="home.html"><img src="/icons/logo.png" alt="" class="logo"></a>
+          <ul>
+              <li><a href="freeGames.html">Free Games</a></li>
+              <li><a href="browserGames.html">Browser Games</a></li>
+              <li><a href="specialOffers.html">Special Offers</a></li>
+              <li><a href="top2023.html">Top 2023</a></li>
+          </ul>
+
+    <div class="flex-cont">
+        <ul id="rightNav">
+            <li><a href="searchgames.html"><img src="/icons/search.png" class="icons"></a></li>
+            <li><a href="searchgames.html"><img src="/icons/gift.png" class="icons"></a></li>
+            <li><a href="searchgames.html"><img src="/icons/gallery.png" class="icons"></a></li>
+            <li><a href="login.html">Log in</a></li>
+            <li><a href="join.html">Join Free</a></li>
+        </ul>
+    </div>
+
+    </section>          
+
+</head>
+
+    <hr id="strike">
+
+<body> 
+    
+    <section class="header">
+
+        <h1>Free Games Search</h1>
+        <p>Find and filter free-to-play games your way!</p>
+        <input type="text" id="gameSearch" placeholder="Search for games">
+
+    </section>
+
+    <hr>
+
+<div class="container">
+
+  <div id="filterDiv">
+    <section class="platformFilter" id="filter">
+
+        <h3>Platform</h3>
+        <input type="checkbox" id="pcGames">
+          <label for="pcGames">PC</label><br>
+        <input type="checkbox" id="browserGames">
+          <label for="browserGames">Browser</label><br>
+
+    </section>
+
+    <section class="genreFilter" id="filter">
+
+      <h3>Genre</h3>
+
+      <div class="genreDiv">
+        <input type="checkbox" id="mmo">
+          <label for="mmo">MMO</label><br>
+        <input type="checkbox" id="mmorpg">
+          <label for="mmorpg">MMORPG</label><br>
+        <input type="checkbox" id="shooter">
+          <label for="shooter">Shooter</label><br>
+        <input type="checkbox" id="strategy">
+          <label for="strategy">Strategy</label><br>
+        <input type="checkbox" id="moba">
+          <label for="moba">Moba</label><br>
+        <input type="checkbox" id="battleRoyale">
+          <label for="battleRoyale">Battle Royale</label><br>
+        <input type="checkbox" id="card">
+          <label for="card">Card</label><br>
+        <input type="checkbox" id="racing">
+          <label for="racing">Racing</label><br> 
+        <input type="checkbox" id="sports">
+          <label for="sports">Sports</label><br>
+        <input type="checkbox" id="social">
+          <label for="social">Social</label><br>    
+        <input type="checkbox" id="fighting">
+          <label for="fighting">Fighting</label><br>   
+      </div>
+
+    </section>
+
+    <section class="setFilter" id="filter">
+
+      <h3>Graphics</h3>
+      <input type="checkbox" id="3dGraph">
+        <label for="3dGraph">3D Graphics</label><br>
+      <input type="checkbox" id="2dGraph">
+        <label for="2dGraph">2D Graphics</label><br> 
+      
+      <h3>Combat</h3>  
+      <input type="checkbox" id="pve">
+        <label for="pve">PVE</label><br>
+      <input type="checkbox" id="pvp">
+        <label for="pvp">PVP</label><br>
+      
+      <h3>Gameplay</h3>  
+      <input type="checkbox" id="turnbsd">
+        <label for="turnbsd">Turn-Based</label><br>
+      <input type="checkbox" id="realtm">
+        <label for="realtm">Real-Time</label><br>
+
+      <h3>Setting</h3>  
+      <input type="checkbox" id="anime">
+        <label for="anime">Anime</label><br>
+      <input type="checkbox" id="fantasy">
+        <label for="fantasy">Fantasy</label><br>
+      <input type="checkbox" id="scifi">
+        <label for="scifi">Sci-Fi</label><br>
+      <input type="checkbox" id="military">
+        <label for="military">Military</label><br>
+      <input type="checkbox" id="horror">
+        <label for="horror">Horror</label><br>    
+
+    </section>
+
+    <section class="tags" id="filter">
+      
+      <h3>Tags</h3>
+      <div class="tagsDiv">
+      <input type="checkbox" id="mmofps">
+        <label for="mmofps">MMOFPS</label><br>
+      <input type="checkbox" id="sandbox">
+        <label for="sandbox">Sandbox</label><br>
+      <input type="checkbox" id="openwrld">
+        <label for="openwrld">Open World</label><br>
+      <input type="checkbox" id="survival">
+        <label for="survival">Survival</label><br>
+      <input type="checkbox" id="actionRpg">
+        <label for="actionRpg">Action RPG</label><br>
+      <input type="checkbox" id="mmorts">
+        <label for="mmorts">MMORTS</label><br>
+      <input type="checkbox" id="horror">
+        <label for="horror">Horror</label><br>
+      <input type="checkbox" id="mmotps">
+        <label for="mmotps">MMOTPS</label><br>
+      <input type="checkbox" id="zombie">
+        <label for="zombie">Zombie</label><br>
+      <input type="checkbox" id="firstPrsn">
+        <label for="firstPrsn">First Person</label><br>
+      <input type="checkbox" id="topdwn">
+        <label for="topdwn">Top Down</label><br>
+      <input type="checkbox" id="tank">
+        <label for="tank">Tank</label><br>  
+      <input type="checkbox" id="space">
+        <label for="space">Space</label><br>
+      <input type="checkbox" id="sailing">
+        <label for="sailing">Sailing</label><br>
+      <input type="checkbox" id="sideScroll">
+        <label for="sideScroll">Side Scroller</label><br>
+      <input type="checkbox" id="superhero">
+        <label for="superhero">Superhero</label><br>
+      <input type="checkbox" id="permaDth">
+        <label for="permaDth">Permadeath</label><br>
+      <input type="checkbox" id="action">
+        <label for="action">Action</label><br>
+      <input type="checkbox" id="martialArts">
+        <label for="martialArts">Martial Arts</label><br>
+      <input type="checkbox" id="flight">
+        <label for="flight">Flight</label><br>
+      <input type="checkbox" id="lowSpc">
+        <label for="lowSpc">Low Spec</label><br>                                 
+      </div>
+      
+    </section>
+</div>
+
+
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+
+    </div>
+      
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+    <div class="grid-items">
+
+      <section>
+
+        <div class="box">
+          <img src="/icons/download.jpeg">
+        </div>
+        
+        <div class="box-content">
+          <h3>Game 1</h3>
+          <label>Free</label>
+          <div id="desc">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</div>
+          <img src="/icons/add.png">
+          <span>Shooter<img src="/icons/win.png"></span>
+
+      </section>
+      
+    </div>
+
+
+    
+</div>
+</body>
+</html>
